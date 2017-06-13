@@ -89,7 +89,7 @@ outMail = OutApp$CreateItem(0)
 outMail[["subject"]] = "Happy Birthday to these guys "
 #outMail[["To"]] = "Daria.Alekseeva@greentomatocars.com"
 #outMail[["To"]] = "antony.carolan@greentomatocars.com;Haider.Variava@greentomatocars.com;Tyrone.Hunte@greentomatocars.com;paul.middleton@greentomatocars.com;moses.adegoroye@greentomatocars.com;Andrew.middleton@greentomatocars.com;tim.stone@greentomatocars.com"
-outMail[["To"]] = "antony.carolan@greentomatocars.com;Haider.Variava@greentomatocars.com;Tyrone.Hunte@greentomatocars.com;Sophie.Jacobsen@greentomatocars.com"
+outMail[["To"]] = "Daria.Alekseeva@greentomatocars.com;antony.carolan@greentomatocars.com;Haider.Variava@greentomatocars.com;Tyrone.Hunte@greentomatocars.com;Sophie.Jacobsen@greentomatocars.com"
 outMail[["body"]] = "Happy Birthday to these drivers who worked for us last week"
 outMail[["Attachments"]]$Add(paste(wd,filename,sep="/"))
 outMail$Send()
