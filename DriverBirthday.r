@@ -9,6 +9,12 @@ library(xlsx)
 library(lubridate)
 
 setwd("C:/Programs/gtc_tasks/DriverBirthdays_weekly")
+
+unlink("spreadsheets", recursive = TRUE, force = FALSE)
+
+# Create a directory for spreadsheets otherwise R having a heart attack 
+dir.create("spreadsheets",showWarnings = F)
+
 wd<-getwd()
 
 filename <- paste(as.Date(Sys.time()), "_", "DriverBirthdays.xlsx", sep = '')
